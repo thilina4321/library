@@ -5,6 +5,8 @@
   align-items: flex-start;
   text-align: center;
   margin: 1rem;
+  width: 96%;
+  margin: auto;
 }
 .name {
   width: 80%;
@@ -22,6 +24,7 @@
   width: 60%;
   margin: auto;
 }
+
 
 .code__wrapper{
   background-color: rgba(0, 0, 0, 0.2);

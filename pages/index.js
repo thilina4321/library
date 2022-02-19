@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title> Thilina Dilshan </title>
+        <title> Git Code Book </title>
       </Head>
       <UsePrompt />
      
