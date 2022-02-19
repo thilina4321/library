@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "code-book",
   "private": true,
   "scripts": {
     "dev": "next dev",
