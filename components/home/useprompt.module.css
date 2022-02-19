@@ -1,0 +1,36 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  margin: 1rem;
+}
+.name {
+  width: 80%;
+  margin: auto;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  width: 60%;
+  margin: auto;
+}
+
+.code__wrapper{
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 1rem;
+}
+
+@media (max-width: 800px) {
+  .btn {
+    width: 94%;
+  }
+}

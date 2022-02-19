@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 95%;
+  margin: auto;
+  flex-wrap: wrap;
+  border-top: 2px solid #eaeaea;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.general, .more {
+  display: flex;
+  gap: 2rem;
+  min-width: 300px;
+  align-items: flex-start;
+  margin-top: 3rem;
+  font-weight: bold;
+
+
+}
+
+
+
+.general p, .more p{
+    margin: 0;
+}
+

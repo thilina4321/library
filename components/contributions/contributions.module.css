@@ -1,0 +1,16 @@
+.item {
+  height: 250px;
+  width: 200px;
+  border: 1px solid #eee;
+  text-align: center;
+  cursor: pointer;
+}
+
+.item h1{
+    margin: 0;
+}
+
+.item:hover{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.2);
+}

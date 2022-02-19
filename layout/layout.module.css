@@ -1,0 +1,10 @@
+.desktop {
+  display: flex;
+  width: 100%;
+}
+
+.main {
+  position: relative;
+  padding-top: 84px;
+  flex: 0.8;
+}
