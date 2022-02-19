@@ -6,7 +6,9 @@ import Link from "next/link";
 const MainHeader = () => {
   const navElementName = [
     { url: "https://www.linkedin.com/in/thilina-dilshan/", icon: 'LinkedIn' },
-    { url: "https://github.com/thilina4321", icon: 'GitHub' }
+    { url: "https://github.com/thilina4321", icon: 'GitHub' },
+    { url: "https://vercel.com/dashboard", icon: 'Vercel' },
+
   ];
 
   return (
