@@ -1,20 +1,17 @@
+import { useRouter } from "next/router";
 import React from "react";
 import classes from "./page.module.css";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 
-const PageLayout = (props) => {
-  const { codeString, title, description } = props;
+const Git = (props) => {
+  const { data = [] } = props;
+  const router = useRouter()
   return (
-    <section className={classes.section}>
-      <h1 className="title">{title}</h1>
-      <h4>{description}</h4>
-      <div className={classes.code__wrapper}>
-        <SyntaxHighlighter language="javascript">
-          {codeString}
-        </SyntaxHighlighter>
-      </div>
-    </section>
+    <div className={classes.grid}>
+      {data.map((d, i) => (
+        <h3 onClick={()=> router.push(`${d.path}`)} className={classes.grid_item} key={i}> {d.title} </h3>
+      ))}
+    </div>
   );
 };
 
-export default PageLayout;
+export default Git;

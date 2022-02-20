@@ -7,7 +7,7 @@ import Sidebar from "./Sidebar";
 
 const Layout = ({ children }) => {
   const navElementName = [
-    { name: "Use Prompt", path: "/" },
+    { name: "GIT & GITHUB", path: "/" },
     { name: "Button", path: "/button" },
     { name: "Use Unsaved", path: "/use_unsaved" },
   ];
