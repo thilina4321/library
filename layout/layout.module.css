@@ -10,6 +10,8 @@
 .main {
   position: relative;
   flex: 0.8;
+  border: 1px solid #eee;
+
 }
 
 @media (max-width: 800px) {

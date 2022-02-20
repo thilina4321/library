@@ -27,13 +27,34 @@
 
 
 .code__wrapper{
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #fff;
-  padding: 1rem;
+  width: 100%;
 }
 
 @media (max-width: 800px) {
   .btn {
     width: 94%;
+  }
+  
+}
+
+
+@media (max-width: 600px) {
+  
+  .code__wrapper{
+    width: 600px;
+  }
+}
+
+@media (max-width: 400px) {
+  
+  .code__wrapper{
+    width: 400px;
+  }
+}
+
+@media (max-width: 300px) {
+  
+  .code__wrapper{
+    width: 300px;
   }
 }

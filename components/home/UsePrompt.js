@@ -21,12 +21,11 @@ const UsePrompt = () => {
   return (
     <section className={classes.section}>
       <h1>Use Prompt Hook</h1>
-      <div style={{width:'400px'}}>
-      <SyntaxHighlighter  language="javascript">
-        {codeString}
-      </SyntaxHighlighter>
+      <div className={classes.code__wrapper}>
+        <SyntaxHighlighter language="javascript">
+          {codeString}
+        </SyntaxHighlighter>
       </div>
-      
     </section>
   );
 };

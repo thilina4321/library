@@ -18,14 +18,11 @@ const Layout = ({ children }) => {
   return (
     <div>
       <MainHeader router={router} navElementName={navElementName} />
-      <Slider router={router} navElementName={navElementName} />
 
       <div className={classes.desktop}>
         <Sidebar router={router} navElementName={navElementName} />
         <main className={classes.main}> {children} </main>
       </div>
-
-     
 
       <Footer />
     </div>
