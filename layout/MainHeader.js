@@ -20,7 +20,7 @@ const MainHeader = (props) => {
         <div className={classes.icon} onClick={() => setShowMenu(!showMenu)}>
           {showMenu ? 'X' : 'Menu' }
         </div>
-        <div onClick={() => router.push("/")}> CDOE BOOK </div>
+        <div style={{fontWeight:'bold', cursor:'pointer'}} onClick={() => router.push("/")}> CDOE BOOK </div>
 
         <div className={classes.elements}>
           {externalElements.map((nvE, ind) => (

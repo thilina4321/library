@@ -1,7 +1,6 @@
 import React from "react";
 import MainHeader from "./MainHeader";
 import classes from "./layout.module.css";
-import Slider from "./MobileHeader";
 import { useRouter } from "next/router";
 import Footer from "./Footer";
 import Sidebar from "./Sidebar";
@@ -9,9 +8,8 @@ import Sidebar from "./Sidebar";
 const Layout = ({ children }) => {
   const navElementName = [
     { name: "Use Prompt", path: "/" },
-    { name: "Docs", path: "/project" },
-    { name: "Banks", path: "/banks" },
-    { name: "Contributions", path: "/contributions" },
+    { name: "Button", path: "/button" },
+    { name: "Use Unsaved", path: "/use_unsaved" },
   ];
   const router = useRouter();
 
@@ -24,7 +22,7 @@ const Layout = ({ children }) => {
         <main className={classes.main}> {children} </main>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

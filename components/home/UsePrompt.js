@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./useprompt.module.css";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import Locations from "./Locations";
 
 const UsePrompt = () => {
   const codeString = `import React, { useEffect, useState } from “react”;
@@ -20,7 +19,13 @@ const UsePrompt = () => {
     export default usePrompt;`;
   return (
     <section className={classes.section}>
-      <h1>Use Prompt Hook</h1>
+      <h1 className="title">Use Prompt Hook</h1>
+      <h4>
+        {" "}
+        This is a example code that we can use for as a prompt for react js. As
+        react router 6 version not yet provide the prompt we can use this hook
+        instead of that.{" "}
+      </h4>
       <div className={classes.code__wrapper}>
         <SyntaxHighlighter language="javascript">
           {codeString}

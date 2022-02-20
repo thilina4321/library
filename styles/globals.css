@@ -5,6 +5,9 @@ html,
 body {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
+  background-color: #1e1e1f;
+  color: #fff;
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -55,4 +58,11 @@ a {
 .btn:active {
   background-color: #02afa1;
   border-color: #02afa1;
+}
+
+
+.title{
+  border-left: 2px solid #ff0000;
+  padding-left: 1rem;
+  font-size: 2rem;
 }

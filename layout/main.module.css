@@ -6,6 +6,7 @@
   width: 100%;
   border-bottom: 1px solid #eaeaea;
   background-color: #fff;
+  background-color: #29282a;
 }
 
 .navbar {
@@ -18,7 +19,7 @@
   gap: 1rem;
 }
 
-.icon{
+.icon {
   display: none;
   cursor: pointer;
 }
@@ -70,11 +71,11 @@
 }
 
 @media (max-width: 800px) {
-  .icon{
+  .icon {
     display: flex;
   }
 
-  .elements{
+  .elements {
     display: none;
   }
 }

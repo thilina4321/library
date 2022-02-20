@@ -2,7 +2,10 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding-top: 84px;
+  position: fixed;
+  top: 84px;
+  left: 0;
+  width: 100%;
 }
 
 
@@ -11,6 +14,10 @@
   position: relative;
   flex: 0.8;
   border: 1px solid #eee;
+  height: 85vh;
+  overflow: auto;
+  padding-bottom: 3rem;
+
 
 }
 
