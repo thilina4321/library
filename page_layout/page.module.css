@@ -16,4 +16,6 @@
   overflow: hidden;
   border-radius: 1rem;
   cursor: pointer;
+  width: 12rem;
+  min-width: 10rem;
 }

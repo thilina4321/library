@@ -8,7 +8,7 @@ import Sidebar from "./Sidebar";
 const Layout = ({ children }) => {
   const navElementName = [
     { name: "GIT & GITHUB", path: "/" },
-    { name: "Button", path: "/button" },
+    { name: "AWS", path: "/aws" },
     { name: "Use Unsaved", path: "/use_unsaved" },
   ];
   const router = useRouter();

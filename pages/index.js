@@ -8,11 +8,8 @@ export default function Home() {
   ]
   return (
     <div>
-      <PageLayout data={data} />
-      {/* <Head>
-        <title> {"GIT & GITHUB"} </title>
-      </Head>
-      */}
+      <PageLayout title={'GIT AND GITHUB'} data={data} />
+      
     </div>
   );
 }

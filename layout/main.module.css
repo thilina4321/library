@@ -59,7 +59,7 @@
 
 .active {
   font-weight: bold;
-  border-bottom: #02afa1;
+  background-color: grey;
 }
 
 .a {

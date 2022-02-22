@@ -6,7 +6,7 @@ export const git = [
       <li> git remote -v</li>
     </ul><h2> Remove Local Branch </h2><ul>
         <li> Navigate to the repo root directory </li>
-        <li> rm -rf.git </li>
+        <li> rm -rf .git </li>
       </ul></>,
   },
 ];
